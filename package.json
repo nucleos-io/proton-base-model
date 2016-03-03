@@ -1,11 +1,14 @@
 {
   "name": "proton-base-model",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "nucleos.io",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "proton-base-class": "^1.0.0"
+  }
 }
