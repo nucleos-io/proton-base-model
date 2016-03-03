@@ -1,14 +1,15 @@
 'use strict'
 
+const BaseClass = require('proton-base-class')
 
 /**
  * @class BaseModel
  * @classdesc The base class where every proton odm model must be inherit
  */
-class BaseModel {
+class BaseModel extends BaseClass {
 
   constructor(proton) {
-    this.proton = proton
+    super(proton)
   }
 
   /**
